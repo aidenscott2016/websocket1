@@ -11,6 +11,7 @@
     "serve": "^11.3.0"
   },
   "scripts": {
-    "serve": "serve"
+    "serve-clients": "serve public",
+    "start": "node src/ws-server"
   }
 }

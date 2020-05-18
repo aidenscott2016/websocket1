@@ -4,14 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   connection.onerror = (error) =>
     console.log("WebSocket Error " + JSON.stringify(error));
-
-  connection.onmessage = (message) => {
-    console.log(message);
-    const pre = document.getElementById("pre");
-    pre.textContent = pre.textContent + '\n' + message.data;
-    pre.style.backgroundColor = message.data;
-  };
-
   document.getElementById("button").addEventListener("click", (e) => {
     e.preventDefault()
     const input = document.getElementById('input')
