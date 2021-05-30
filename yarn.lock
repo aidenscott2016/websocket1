@@ -647,9 +647,9 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-ws@^7.1.2, ws@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.0.tgz#4b2f7f219b3d3737bc1a2fbf145d825b94d38ffd"
+ws@^7.1.2, ws@^7.4.6:
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
 
 ws@~6.1.0:
   version "6.1.4"
